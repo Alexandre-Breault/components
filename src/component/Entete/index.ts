@@ -1,0 +1,1 @@
+export { Entete } from "./Entete";
