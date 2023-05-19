@@ -1,5 +1,5 @@
 {
-    "name": "@creep/components",
+    "name": "@alexandre-Breault/components",
     "version": "1.0.0",
     "description": "Module components creep",
     "main": "./lib/index.js",
