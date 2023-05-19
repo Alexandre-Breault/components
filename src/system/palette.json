@@ -1,0 +1,17 @@
+{
+    "paletteName": "Palette-Gestion-Project",
+    "swatches": [
+        {
+            "name": "gray-600",
+            "color": "4B5563"
+        },
+        {
+            "name": "rose-900",
+            "color": "881337"
+        },
+        {
+            "name": "teaf-800",
+            "color": "115E59"
+        }
+    ]
+}

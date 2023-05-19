@@ -6,30 +6,25 @@
 //   );
 // };
 
-import { FC, Fragment } from "react";
-import { borderClass } from "../class/border";
-import { widthClass } from "../class/with";
-import { colorBackground, colorText } from "../class/color";
+import { FC, Fragment } from 'react';
+import { widthClass } from '../../system/class/with';
+import { colorText } from '../../system/class/color';
 
-import { TableProps } from "./TableProps";
-import { textSize } from "../class/textSize";
+import { TableProps } from './TableProps';
+import { textSize } from '../../system/class/textSize';
 
-const Table: FC<TableProps> = ({
-  children,
-  className,
-  textColor = "Gray",
-  width = "wauto",
-  sizeText = "textSm",
-}) => {
-  return (
-    <Fragment>
-      <table
-        className={`${colorText[textColor]} ${widthClass[width]} ${textSize[sizeText]} ${typeof className === "undefined" ? "" : className}`}
-      >
-        {children}
-      </table>
-    </Fragment>
-  );
+const Table: FC<TableProps> = ({ children, className, textColor = 'Gray', width = 'wauto', sizeText = 'textSm' }) => {
+    return (
+        <Fragment>
+            <table
+                className={`${colorText[textColor]} ${widthClass[width]} ${textSize[sizeText]} ${
+                    typeof className === 'undefined' ? '' : className
+                }`}
+            >
+                {children}
+            </table>
+        </Fragment>
+    );
 };
 
 export { Table };

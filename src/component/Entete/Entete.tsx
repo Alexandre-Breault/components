@@ -1,7 +1,7 @@
 import { FC, Fragment } from "react";
-import { colorText } from "../class/color";
-import { FontClasses } from "../class/font";
-import { PaddingClasses } from "../class/padding";
+import { colorText } from "../../system/class/color";
+import { FontClasses } from "../../system/class/font"; 
+import { PaddingClasses } from "../../system/class/padding"; 
 import { EnteteProps } from "./EnteteProps";
 
 const Entete: FC<EnteteProps> = ({

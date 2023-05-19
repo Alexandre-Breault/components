@@ -1,16 +1,9 @@
-/**
- * padding
- * font
- * textColor
- * whitespace-nowrap
- */
+import { Color } from '../../system/types/color';
+import { Font } from '../../system/types/font';
+import { Padding } from '../../system/types/padding';
 
-import { Color } from "../types/color";
-import { Font } from "../types/font";
-import { Padding } from "../types/padding";
-
-export type EnteteProps = JSX.IntrinsicElements["th"] & {
-  textColor?: Color;
-  font?: Font;
-  padding?: Padding[];
+export type EnteteProps = JSX.IntrinsicElements['th'] & {
+    textColor?: Color;
+    font?: Font;
+    padding?: Padding[];
 };

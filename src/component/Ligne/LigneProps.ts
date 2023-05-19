@@ -3,8 +3,8 @@
  * border
  */
 
-import { Border } from "../types/border";
-import { Color } from "../types/color";
+import { Border } from "../../system/types/border"; 
+import { Color } from '../../system/types/color';
 
 export type Ligneprops = JSX.IntrinsicElements["tr"] & {
   bgColor?: Color;
