@@ -10,6 +10,10 @@
         "watch-ts": "tsc -w"
     },
     "keywords": [],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Alexandre-Breault/components"
+    },
     "author": "Alexandre BREAULT",
     "license": "ISC",
     "devDependencies": {
