@@ -1,0 +1,1 @@
+{"version":3,"file":"font.js","sourceRoot":"","sources":["../../../src/system/class/font.ts"],"names":[],"mappings":";;;AAEA,IAAM,WAAW,GAAyB;IACxC,IAAI,EAAE,WAAW;IACjB,QAAQ,EAAE,eAAe;IACzB,MAAM,EAAE,aAAa;IACrB,MAAM,EAAE,aAAa;IACrB,KAAK,EAAE,YAAY;IACnB,UAAU,EAAE,iBAAiB;IAC7B,SAAS,EAAE,gBAAgB;IAC3B,IAAI,EAAE,WAAW;IACjB,KAAK,EAAE,YAAY;CACpB,CAAC;AAEO,kCAAW"}

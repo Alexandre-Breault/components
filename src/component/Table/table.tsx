@@ -1,11 +1,3 @@
-// const Table = (props: TableProps) => {
-//   return (
-//     <TableBase className='w-full text-sm text-left text-gray-600' {...props}>
-//       {props.children}
-//     </TableBase>
-//   );
-// };
-
 import { FC, Fragment } from 'react';
 import { widthClass } from '../../system/class/with';
 import { colorText } from '../../system/class/color';
